@@ -20,15 +20,12 @@ management:
   endpoints:
     web:
       exposure:
-        include:  health, busrefresh, bus-env, refresh, env
-  endpoint:
-    info:
-      enabled: true
+        include:  health, busrefresh
 logging:
   level:
     ROOT: ERROR
-    com.sannette.eis.mega.*: INFO
-    org.apache.kafka.*: INFO
+    com.sannette.eis.mega.*: ERROR
+    org.apache.kafka.*: WARN
 
 model: applepro14prd
 cost: 360usd
