@@ -1,3 +1,4 @@
-model: applepro14dev
-cost: freedev
-
+brand: Apple
+model: Pro14dev
+cost: 1000
+currency: USD
