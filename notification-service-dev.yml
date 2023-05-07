@@ -35,3 +35,9 @@ app:
     host: smtpdev.gmail.comchanged
     port: 587
     userName: myemaildev@gmail.com
+    properties:
+      mail:
+        smtp:
+          starttls:
+            enable: true 
+          auth: true
