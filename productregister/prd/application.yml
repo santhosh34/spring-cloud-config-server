@@ -1,3 +1,33 @@
-model: applepro14prd
-cost: freeprd
+server:
+  port: 8082
+spring:
+  cloud:
+    bus:
+      enabled: true
+      destination: myownmanuallycreatedtopic
+    stream:
+      kafka:
+        binder:
+          autoCreateTopics: false
+          zkNodes: localhost:2181
+          brokers: localhost:29092
+          consumer-properties:
+            allow:
+              auto:
+                create:
+                  topics: false
+management:
+  endpoints:
+    web:
+      exposure:
+        include:  health, busrefresh
+logging:
+  level:
+    ROOT: ERROR
+    com.sannette.eis.mega.*: ERROR
+    org.apache.kafka.*: WARN
 
+model: applepro14prd
+cost: 3600USD
+other1: 6may630pm
+other2: 6may907pm

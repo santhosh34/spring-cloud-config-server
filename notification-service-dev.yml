@@ -1,21 +1,6 @@
 server:
   port: 8082
-management:
-  endpoints:
-    web:
-      exposure:
-        include:  health, busrefresh, bus-env, refresh, env
-  endpoint:
-    info:
-      enabled: true
-logging:
-  level:
-    ROOT: ERROR
-    com.sannette.eis.mega.*: INFO
-    org.apache.kafka.*: INFO
 spring:
-  application:
-    name: notification-service
   cloud:
     bus:
       enabled: true
@@ -31,6 +16,20 @@ spring:
               auto:
                 create:
                   topics: false
+management:
+  endpoints:
+    web:
+      exposure:
+        include:  health, busrefresh, bus-env, refresh, env
+  endpoint:
+    info:
+      enabled: true
+logging:
+  level:
+    ROOT: ERROR
+    com.sannette.eis.mega.*: INFO
+    org.apache.kafka.*: INFO
+
 model: applepro14dev
 cost: 120usd
 other: 6may630pm

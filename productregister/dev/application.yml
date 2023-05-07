@@ -1,4 +1,36 @@
-brand: Apple
-model: Pro14dev
-cost: 1000
-currency: USD
+server:
+  port: 8082
+spring:
+  cloud:
+    bus:
+      enabled: true
+      destination: myownmanuallycreatedtopic
+    stream:
+      kafka:
+        binder:
+          autoCreateTopics: false
+          zkNodes: localhost:2181
+          brokers: localhost:29092
+          consumer-properties:
+            allow:
+              auto:
+                create:
+                  topics: false
+management:
+  endpoints:
+    web:
+      exposure:
+        include:  health, busrefresh, bus-env, refresh, env
+  endpoint:
+    info:
+      enabled: true
+logging:
+  level:
+    ROOT: ERROR
+    com.sannette.eis.mega.*: INFO
+    org.apache.kafka.*: INFO
+
+model: applepro14dev
+cost: 1200USD
+other: 6may630pm
+other2: 6may907pm
