@@ -27,7 +27,14 @@ logging:
     com.sannette.eis.mega.*: ERROR
     org.apache.kafka.*: WARN
 
-model: applepro14prd
-cost: 360usd
-other: 6may630pm
-other2: 6may907pm
+app:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: myemail@gmail.com
+    properties:
+      mail:
+        smtp:
+          starttls:
+            enable: true 
+          auth: true

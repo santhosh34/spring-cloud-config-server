@@ -27,7 +27,9 @@ logging:
     com.sannette.eis.mega.*: ERROR
     org.apache.kafka.*: WARN
 
-model: applepro14prd
-cost: 3600USD
-other1: 6may630pm
-other2: 6may907pm
+brand: apple 
+category: phones
+model: iphonepro14prd
+cost: 1200USD
+other1: 7May1130pm
+other2: 7May1145pm

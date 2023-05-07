@@ -30,7 +30,9 @@ logging:
     com.sannette.eis.mega.*: INFO
     org.apache.kafka.*: INFO
 
-model: applepro14stg
+brand: apple 
+category: phones
+model: iphonepro14prd
 cost: 2400USD
-other: 6may630pm
-other2: 6may907pm
+other1: 7May1130pm
+other2: 7May1145pm

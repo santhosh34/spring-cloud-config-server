@@ -30,7 +30,14 @@ logging:
     com.sannette.eis.mega.*: INFO
     org.apache.kafka.*: INFO
 
-model: applepro14dev
-cost: 120usd
-other: 6may630pm
-other2: 6may907pm
+app:
+  mail:
+    host: smtpdev.gmail.com
+    port: 587
+    username: myemaildev@gmail.com
+    properties:
+      mail:
+        smtp:
+          starttls:
+            enable: true 
+          auth: true
