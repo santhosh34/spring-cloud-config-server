@@ -34,7 +34,7 @@ app:
   mail:
     host: smtpdev.gmail.com
     port: 587
-    username: myemaildev@gmail.com
+    userName: myemaildev@gmail.com
     properties:
       mail:
         smtp:
