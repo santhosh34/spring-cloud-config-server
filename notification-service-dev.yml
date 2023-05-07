@@ -32,6 +32,6 @@ spring:
                 create:
                   topics: false
 model: applepro14dev
-cost: 110usd
+cost: 120usd
 other: 6may630pm
 other2: 6may907pm
