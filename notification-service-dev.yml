@@ -32,6 +32,6 @@ logging:
 
 app:
   mail:
-    host: smtpdev.gmail.com
+    host: smtpdev.gmail.comchanged
     port: 587
     userName: myemaildev@gmail.com
