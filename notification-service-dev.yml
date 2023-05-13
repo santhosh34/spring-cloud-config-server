@@ -4,7 +4,7 @@ spring:
   cloud:
     bus:
       enabled: true
-      destination: myownmanuallycreatedtopic
+      destination: manuallycreatedtopic
     stream:
       kafka:
         binder:

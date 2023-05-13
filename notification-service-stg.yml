@@ -4,7 +4,7 @@ spring:
   cloud:
     bus:
       enabled: true
-      destination: myownmanuallycreatedtopic
+      destination: manuallycreatedtopic
     stream:
       kafka:
         binder:
@@ -32,9 +32,9 @@ logging:
 
 app:
   mail:
-    host: smtpstg.gmail.com
+    host: smtpstg.gmail.com-notification-git
     port: 587
-    userName: myemailstg@gmail.com
+    userName: myemailstg@gmail.com-notification-git
     properties:
       mail:
         smtp:
