@@ -27,9 +27,9 @@ logging:
     com.sannette.eis.mega.*: ERROR
     org.apache.kafka.*: WARN
 
-brand: apple 
+brand: apple-prodreg-git
 category: phones
-model: iphonepro14prd
+model: iphonepro14prd-prodreg-git
 cost: 3600USD
 other1: 13May1130pm
 other2: 13May1145pm

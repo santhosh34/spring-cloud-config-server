@@ -30,9 +30,9 @@ logging:
     com.sannette.eis.mega.*: INFO
     org.apache.kafka.*: INFO
 
-brand: apple 
+brand: apple-prodreg-git
 category: phones
-model: iphonepro14dev
+model: iphonepro14dev-prodreg-git
 cost: 1200USD
 other1: 13May1130pm
 other2: 13May1145pm
