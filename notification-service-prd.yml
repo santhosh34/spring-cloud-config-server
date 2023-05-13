@@ -29,9 +29,9 @@ logging:
 
 app:
   mail:
-    host: smtp.gmail.com
+    host: smtp.gmail.com-notification-git
     port: 587
-    userName: myemail@gmail.com
+    userName: myemail@gmail.com-notification-git
     properties:
       mail:
         smtp:
