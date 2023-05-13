@@ -32,7 +32,7 @@ logging:
 
 app:
   mail:
-    host: smtpdev.gmail.com
+    host: smtpdev.gmail.com-13may3:33
     port: 587
     userName: myemaildev@gmail.com
     properties:
